@@ -1,0 +1,11 @@
+const CORES = {
+	COR_PRIMARIA: "#333061",
+	COR_SECUNDARIA: "#2E2D47",
+	TEXTO_PRIMARIA: "#FFF",
+	NAV_TEXTO_ATIVO: "black",
+	NAV_TEXTO_INATIVO: "gray",
+	NAV_BG_ATIVO: "orange",
+	NAV_BG_INATIVO: "#2E2D47",
+};
+
+export { CORES };
