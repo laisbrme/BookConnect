@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, MeuText } from "../../styles/styles-geral";
 
-export default function News({ navigation }) {
+export default function Events({ navigation }) {
 	return (
 		<Container>
 			<MeuText fontSize={25} cor={"blue"}>
-				Página Perfil
+				Página Eventos
 			</MeuText>
 		</Container>
 	);

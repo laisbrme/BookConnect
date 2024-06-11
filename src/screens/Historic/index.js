@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, MeuText } from "../../styles/styles-geral";
 
-export default function News({ navigation }) {
+export default function Historic({ navigation }) {
   return (
     <Container>
-      <MeuText fontSize={25} cor={'blue'}>Página Novidades</MeuText>
+      <MeuText fontSize={25} cor={'blue'}>Página Histórico</MeuText>
     </Container>
   )
 }

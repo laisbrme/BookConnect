@@ -1,4 +1,5 @@
 {
 	"cSpell.words": ["bookconnect"],
-	"files.autoSave": "afterDelay"
+	"files.autoSave": "afterDelay",
+	"figma.autocompleteBlocks": true
 }

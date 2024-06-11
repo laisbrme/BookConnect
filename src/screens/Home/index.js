@@ -1,11 +1,10 @@
 import React from "react";
-import { Text, View } from "react-native";
 import { Container, MeuText } from "../../styles/styles-geral";
 
-export default function Home() {
+export default function Home({ navigation }) {
   return (
     <Container>
-      <MeuText fontSize={25} cor={'blue'}>Página Home</MeuText>
+      <MeuText fontSize={25} cor={'blue'}>Página Início</MeuText>
     </Container>
   )
 }

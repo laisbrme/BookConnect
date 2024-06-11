@@ -1,5 +1,7 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, Image } from "react-native";
+import { Container } from "../../styles/styles-geral";
+import { CustomText, Logo } from "../../components";
 import MyInput from "../../components/MyInputs";
 import MyButton from "../../components/MyButtons";
 
@@ -9,34 +11,16 @@ export default function Login({ navigation }) {
 	};
 
 	return (
-		<View style={styles.boxLogin}>
-			<Text style={styles.tituloLogin}>Entrar</Text>
-			<Text style={styles.textoLogin}>
-				Para entrar, insira seu nome de usuário e senha:
-			</Text>
+		<Container>
+			<Logo />
+			<CustomText>Entrar</CustomText>
+			<CustomText>Para entrar, insira seu nome de usuário e senha:</CustomText>
 
 			<MyInput placeHolder="Usuário" comMascara={false} />
 
 			<MyInput placeHolder="Senha" comMascara={true} />
 
 			<MyButton value="Entrar" callback={logar} />
-		</View>
+		</Container>
 	);
 }
-
-const styles = StyleSheet.create({
-	boxLogin: {
-		flex: 1,
-		justifyContent: "center",
-		alignItems: "left",
-		backgroundColor: "#fff",
-	},
-	tituloLogin: {
-		fontSize: 26,
-		textAlign: "left",
-	},
-	textoLogin: {
-		fontSize: 16,
-		textAlign: "left",
-	},
-});

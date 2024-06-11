@@ -13,9 +13,7 @@ O aplicativo será chamado BookConnect (Aplicativo para estabelecer vínculos en
 
 ## Tecnologias utilizadas
 
-<img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" width="50" alt="React Native" title="React Native">
-<img src="https://img.icons8.com/?size=100&id=IpN1evivrDWO&format=png&color=000000" width="50" alt="Expo" title="Expo">
-<img src="https://reactnavigation.org/img/spiro.svg" width="50" alt="React Navigator" title="React Navigator">
+<img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" width="50" alt="React Native" title="React Native"> <img src="https://img.icons8.com/?size=100&id=IpN1evivrDWO&format=png&color=000000" width="50" alt="Expo" title="Expo"> <img src="https://reactnavigation.org/img/spiro.svg" width="50" alt="React Navigator" title="React Navigator">
 
 <!-- ## Vídeo de apresentação -->
 
