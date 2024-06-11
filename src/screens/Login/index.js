@@ -12,7 +12,7 @@ export default function Login({ navigation }) {
 
 	return (
 		<Container>
-			<Logo />
+			{/* <Logo /> */}
 			<CustomText>Entrar</CustomText>
 			<CustomText>Para entrar, insira seu nome de usuário e senha:</CustomText>
 
