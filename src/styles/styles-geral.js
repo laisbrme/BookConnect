@@ -6,11 +6,6 @@ import {
 	Poppins_600SemiBold,
 } from "@expo-google-fonts/poppins";
 
-const LogoImage = styled.Image`
-	width: 12.375rem;
-	height: 11.59375rem;
-`;
-
 const Container = styled.View`
 	flex: 1;
 	background-color: ${(props) =>
@@ -25,4 +20,4 @@ const MeuText = styled.Text`
 	font-family: "Helvetica";
 `;
 
-export { Container, MeuText, LogoImage };
+export { Container, MeuText };
