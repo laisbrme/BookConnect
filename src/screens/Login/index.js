@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import { Container } from "../../styles/styles-geral";
-import { CustomText, Logo } from "../../components";
+import { CustomText } from "../../components";
 import MyInput from "../../components/MyInputs";
 import MyButton from "../../components/MyButtons";
 
@@ -12,9 +12,8 @@ export default function Login({ navigation }) {
 
 	return (
 		<Container>
-			{/* <Logo /> */}
-			<CustomText>Entrar</CustomText>
-			<CustomText>Para entrar, insira seu nome de usuário e senha:</CustomText>
+			<Text>Entrar</Text>
+			<Text>Para entrar, insira seu nome de usuário e senha:</Text>
 
 			<MyInput placeHolder="Usuário" comMascara={false} />
 
