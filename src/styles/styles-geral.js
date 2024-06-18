@@ -17,7 +17,6 @@ const Container = styled.View`
 const MeuText = styled.Text`
 	font-size: ${(props) => props.fontSize || 14};
 	color: ${(props) => props.cor || CORES.TEXTO_ESCURO};
-	font-family: "Helvetica";
 `;
 
 export { Container, MeuText };
