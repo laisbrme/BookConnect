@@ -1,6 +1,6 @@
 import React from "react";
 import { SafeAreaView, TextInput, StyleSheet, Text } from "react-native";
-import { CORES } from "../../constants/cores";
+import { colors } from "../../styles/colors";
 
 const MyInput = (props) => {
 	return (
@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
 	input: {
 		width: 311,
 		height: 52,
-		borderColor: CORES.COR_PRIMARIA,
+		borderColor: colors.COR_PRIMARIA,
 		borderWidth: 1,
 		borderRadius: 8,
 		marginBottom: 15,

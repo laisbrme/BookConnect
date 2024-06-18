@@ -1,6 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { StackNavigate } from "./routes";
-import AppLoading from 'expo-app-loading';
+import AppLoading from "expo-app-loading";
+import { ThemeProvider } from "styled-components";
 import {
 	useFonts,
 	Poppins_100Thin,
@@ -22,6 +23,7 @@ import {
 	Poppins_900Black,
 	Poppins_900Black_Italic,
 } from "@expo-google-fonts/poppins";
+import { theme } from "./src/styles";
 
 import "react-native-gesture-handler";
 
@@ -45,15 +47,17 @@ export default function App() {
 		Poppins_800ExtraBold_Italic,
 		Poppins_900Black,
 		Poppins_900Black_Italic,
-		});
-	
+	});
+
 	if (!fontsLoaded) {
 		return <AppLoading />;
 	}
 
 	return (
-		<NavigationContainer>
-			<StackNavigate />
-		</NavigationContainer>
+		<ThemeProvider theme={theme}>
+			<NavigationContainer>
+				<StackNavigate />
+			</NavigationContainer>
+		</ThemeProvider>
 	);
 }

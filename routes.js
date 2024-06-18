@@ -11,7 +11,7 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 // import { createDrawerNavigator } from "@react-navigation/drawer";
 
-import { CORES } from "./src/constants/cores";
+import { colors } from "./src/styles/colors";
 import {
 	Entypo,
 	MaterialCommunityIcons,
@@ -51,11 +51,11 @@ export const TabNavigate = () => {
 						<Entypo
 							name="home"
 							size={30}
-							color={focused ? CORES.ICONE_ATIVO : CORES.ICONE_INATIVO}
+							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
 						/>
 					),
-					tabBarActiveTintColor: CORES.ICONE_ATIVO,
-					tabBarInactiveTintColor: CORES.ICONE_INATIVO,
+					tabBarActiveTintColor: colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -67,11 +67,11 @@ export const TabNavigate = () => {
 						<MaterialIcons
 							name="book"
 							size={30}
-							color={focused ? CORES.ICONE_ATIVO : CORES.ICONE_INATIVO}
+							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
 						/>
 					),
-					tabBarActiveTintColor: CORES.ICONE_ATIVO,
-					tabBarInactiveTintColor: CORES.ICONE_INATIVO,
+					tabBarActiveTintColor: colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -83,11 +83,11 @@ export const TabNavigate = () => {
 						<MaterialCommunityIcons
 							name="alert-decagram"
 							size={30}
-							color={focused ? CORES.ICONE_ATIVO : CORES.ICONE_INATIVO}
+							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
 						/>
 					),
-					tabBarActiveTintColor: CORES.ICONE_ATIVO,
-					tabBarInactiveTintColor: CORES.ICONE_INATIVO,
+					tabBarActiveTintColor: colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -99,11 +99,11 @@ export const TabNavigate = () => {
 						<MaterialIcons
 							name="event-available"
 							size={30}
-							color={focused ? CORES.ICONE_ATIVO : CORES.ICONE_INATIVO}
+							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
 						/>
 					),
-					tabBarActiveTintColor: CORES.ICONE_ATIVO,
-					tabBarInactiveTintColor: CORES.ICONE_INATIVO,
+					tabBarActiveTintColor: colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -115,11 +115,11 @@ export const TabNavigate = () => {
 						<MaterialCommunityIcons
 							name="cards-heart"
 							size={30}
-							color={focused ? CORES.ICONE_ATIVO : CORES.ICONE_INATIVO}
+							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
 						/>
 					),
-					tabBarActiveTintColor: CORES.ICONE_ATIVO,
-					tabBarInactiveTintColor: CORES.ICONE_INATIVO,
+					tabBarActiveTintColor: colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>

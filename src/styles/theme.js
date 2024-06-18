@@ -1,9 +1,9 @@
-import { CORES } from "../constants/cores";
-import { FONTES } from "../constants/font";
+import { colors } from "./colors";
+import { fonts } from "./fonts";
 import { metrics } from "./metrics";
 
 export const theme = {
-	CORES,
-	FONTES,
 	metrics,
+	colors,
+	fonts,
 };
