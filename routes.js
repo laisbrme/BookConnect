@@ -4,7 +4,7 @@ import Home from "./src/screens/Home";
 import News from "./src/screens/News";
 import Favorites from "./src/screens/Favorites";
 import Events from "./src/screens/Events";
-import Historic from "./src/screens/Historic";
+import Reading from "./src/screens/Reading";
 
 // 2º Criando a navegação
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -61,7 +61,7 @@ export const TabNavigate = () => {
 			/>
 			<Tab.Screen
 				name="Leituras"
-				component={Historic}
+				component={Reading}
 				options={{
 					tabBarIcon: ({ focused }) => (
 						<MaterialIcons
