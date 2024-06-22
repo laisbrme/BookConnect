@@ -1,5 +1,6 @@
 import styled from "styled-components/native";
 import { colors } from "./colors";
+import { fonts } from "./fonts";
 
 const Container = styled.View`
 	flex: 1;
@@ -10,7 +11,7 @@ const Container = styled.View`
 	padding: 20px;
 `;
 
-const BackgroudRoxo1 = styled.View`
+const BackgroundRoxo1 = styled.View`
 	position: absolute;
 	flex: 1;
 	top: 0;
@@ -22,7 +23,7 @@ const BackgroudRoxo1 = styled.View`
 	border-bottom-right-radius: 56px;
 `;
 
-const BackgroudRoxo2 = styled.View`
+const BackgroundRoxo2 = styled.View`
 	position: absolute;
 	flex: 1;
 	top: 0;
@@ -35,8 +36,10 @@ const BackgroudRoxo2 = styled.View`
 `;
 
 const MeuText = styled.Text`
-	font-size: ${(props) => props.fontSize || 14};
+	font-size: ${(props) => props.fontSize || 18};
 	color: ${(props) => props.cor || colors.TEXTO_ESCURO};
+	font-family: ${(props) => props.fontFamily || fonts.regular};
+	line-height: 109%;
 `;
 
-export { Container, BackgroudRoxo1, BackgroudRoxo2, MeuText };
+export { Container, BackgroundRoxo1, BackgroundRoxo2, MeuText };
