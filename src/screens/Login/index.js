@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import { Container, MeuText } from "../../styles/styles-geral";
+import { Container, BackgroudRoxo1, MeuText } from "../../styles/styles-geral";
 import { CustomText } from "../../components";
 import MyInput from "../../components/MyInputs";
 import MyButton from "../../components/MyButtons";
@@ -11,15 +11,17 @@ export default function Login({ navigation }) {
 	};
 
 	return (
-		<Container>
-			<MeuText>Entrar</MeuText>
-			<MeuText>Para entrar, insira seu nome de usuário e senha:</MeuText>
+		<BackgroudRoxo1>
+			<Container>
+				<MeuText>Entrar</MeuText>
+				<MeuText>Para entrar, insira seu nome de usuário e senha:</MeuText>
 
-			<MyInput placeHolder="Usuário" comMascara={false} />
+				<MyInput placeHolder="Usuário" comMascara={false} />
 
-			<MyInput placeHolder="Senha" comMascara={true} />
+				<MyInput placeHolder="Senha" comMascara={true} />
 
-			<MyButton value="Entrar" callback={logar} />
-		</Container>
+				<MyButton value="Entrar" callback={logar} />
+			</Container>
+		</BackgroudRoxo1>
 	);
 }
