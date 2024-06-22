@@ -1,4 +1,4 @@
-export const conts = {
+export const fonts = {
 	regular: "Poppins_400Regular",
 	semiBold: "Poppins_600SemiBold",
 	extraLight: "Poppins_200ExtraLight",
