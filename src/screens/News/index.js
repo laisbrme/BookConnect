@@ -1,14 +1,21 @@
 import React from "react";
-import { Container, BackgroudRoxo1, MeuText } from "../../styles/styles-geral";
+import { Container, BackgroundRoxo1, MeuText } from "../../styles/styles-geral";
+import { ContainerNews, LayoutText, ListCards } from "./styles";
+import { colors } from "../../styles/colors";
+
 
 export default function News({ navigation }) {
 	return (
-		<BackgroudRoxo1>
+		<BackgroundRoxo1>
 			<Container>
-				<MeuText fontSize={25} cor={"blue"}>
-					Página Novidades
-				</MeuText>
+				<ContainerNews>
+					<LayoutText>
+						<MeuText cor={colors.BRANCO}>
+							Confira nossas novidades deste mês.
+						</MeuText>
+					</LayoutText>
+				</ContainerNews>
 			</Container>
-		</BackgroudRoxo1>
+		</BackgroundRoxo1>
 	);
 }
