@@ -20,6 +20,7 @@
     "expo": "~51.0.8",
     "expo-app-loading": "^2.1.1",
     "expo-font": "^12.0.6",
+    "expo-image": "~1.12.12",
     "expo-status-bar": "~1.12.1",
     "google-fonts": "^1.0.0",
     "native-base": "^3.4.28",
