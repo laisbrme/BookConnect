@@ -8,31 +8,8 @@ const Container = styled.View`
 		props.selecionado ? colors.COR_PRIMARIA : colors.COR_FUNDO_LIGHT};
 	align-items: center;
 	justify-content: center;
-	padding: 20px;
-`;
-
-const BackgroundRoxo1 = styled.View`
-	position: absolute;
-	flex: 1;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 48.74%;
-	background: ${colors.COR_PRIMARIA};
-	border-bottom-left-radius: 56px;
-	border-bottom-right-radius: 56px;
-`;
-
-const BackgroundRoxo2 = styled.View`
-	position: absolute;
-	flex: 1;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 57.53%;
-	background: ${colors.COR_PRIMARIA};
-	border-bottom-left-radius: 16px;
-	border-bottom-right-radius: 16px;
+	padding-left: 20px;
+	padding-right: 20px;
 `;
 
 const MeuText = styled.Text`
@@ -42,4 +19,4 @@ const MeuText = styled.Text`
 	line-height: 109%;
 `;
 
-export { Container, BackgroundRoxo1, BackgroundRoxo2, MeuText };
+export { Container, MeuText };
