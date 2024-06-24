@@ -9,6 +9,7 @@ const statusBarHeight = StatusBar.currentHeight
 /* HEADER */
 const Background1 = styled.View`
 	display: flex;
+	align-items: center ;
 	flex-direction: column;
 	padding-top: 36px;
 	padding-right: 16px;
@@ -23,6 +24,7 @@ const Background1 = styled.View`
 
 const Background2 = styled.View`
 	display: flex;
+	align-items: center ;
 	flex-direction: column;
 	padding-top: 36px;
 	padding-right: 16px;
