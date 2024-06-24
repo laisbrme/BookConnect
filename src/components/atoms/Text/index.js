@@ -1,9 +1,5 @@
-import { Text } from 'react-native'
+import { CustomText } from "./styles";
 
-export const CustomText = ({ children }) => {
-    return (
-        <Text>
-            { children }
-        </Text>
-    )
-}
+export const Text = ({ children, color }) => {
+	return <CustomText color={color}>{children}</CustomText>;
+};
