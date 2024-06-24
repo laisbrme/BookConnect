@@ -4,8 +4,8 @@ import { Container, MeuText } from "../../styles/styles-geral";
 
 export default function Favorites({ navigation }) {
 	return (
-		<Container>
+		<Background1>
 			<MeuText cor={"blue"}>Página Favoritos</MeuText>
-		</Container>
+		</Background1>
 	);
 }
