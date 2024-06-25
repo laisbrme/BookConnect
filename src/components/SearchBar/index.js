@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, BoxIconSearch, SearchIcon, Input, Text } from "./styles";
+import { Container, BoxIconSearch, SearchIcon, Input } from "./styles";
 
 export default function SearchBar(props) {
 	return (
