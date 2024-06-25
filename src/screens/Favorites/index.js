@@ -1,11 +1,21 @@
 import React from "react";
 import { Background1 } from "../../components/Backgrounds";
-import { Container, MeuText } from "../../styles/styles-geral";
+import SearchBar from "../../components/SearchBar";
+import LinkShare from "../../components/LinkShare";
+import { MeuText } from "../../styles/styles-geral";
+import { LayoutText, ListCards } from "./styles";
+import { theme } from "../../styles/theme";
 
 export default function Favorites({ navigation }) {
 	return (
 		<Background1>
-			<MeuText cor={"blue"}>Página Favoritos</MeuText>
+			<LayoutText>
+				<MeuText cor={theme.colors.BRANCO}>
+					Aqui está a sua estante de favoritos.
+				</MeuText>
+			</LayoutText>
+			<SearchBar />
+			<LinkShare />
 		</Background1>
 	);
 }
