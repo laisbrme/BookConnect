@@ -1,19 +1,18 @@
 import styled from "styled-components/native";
-import { colors } from "../../styles/colors";
+import { theme } from "../../styles/theme";
 
-const ContainerNews = styled.View`
+const LayoutText = styled.View`
 	display: flex;
+	width: ${theme.metrics.px(250)}px;
+	margin-right: ${theme.metrics.px(105)}px;
+	padding-bottom: ${theme.metrics.px(20)}px;
 	flex-direction: column;
-	margin-top: 11%;
-	width: 80%;
-`;
-
-const LayoutText = styled.Text`
-	width: 60%;
+	justify-content: center;
+	flex-shrink: 0;
 `;
 
 const ListCards = styled.View`
 	flex-wrap: wrap;
 `;
 
-export { ContainerNews, LayoutText, ListCards };
+export { LayoutText, ListCards };
