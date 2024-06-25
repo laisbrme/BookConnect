@@ -1,11 +1,9 @@
 import styled from "styled-components/native";
-import { TextInput, Text } from "react-native";
+import { TextInput } from "react-native";
 import { metrics } from "../../styles/metrics";
 import { colors } from "../../styles/colors";
 import { fonts } from "../../styles/fonts";
 import Icon from "react-native-vector-icons/MaterialIcons";
-
-// const { width } = Dimensions.get('window')
 
 export const Container = styled.SafeAreaView`
 	width: ${metrics.px(356)}px;
