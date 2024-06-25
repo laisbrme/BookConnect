@@ -9,6 +9,7 @@ export const Container = styled.SafeAreaView`
 	flex-shrink: 0;
 	background: ${theme.colors.BRANCO};
 	border-radius: ${theme.metrics.px(8)}px;
+	margin-top: ${theme.metrics.px(20)}px;
 `;
 
 export const Input = styled(TextInput).attrs({

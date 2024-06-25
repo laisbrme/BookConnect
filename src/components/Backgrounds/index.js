@@ -1,6 +1,6 @@
 import styled from "styled-components/native";
 import { StatusBar } from "react-native";
-import { colors } from "../../styles/colors"
+import { colors } from "../../styles/colors";
 
 const statusBarHeight = parseInt(StatusBar.currentHeight)
 	? parseInt(StatusBar.currentHeight) + 22
@@ -9,8 +9,9 @@ const statusBarHeight = parseInt(StatusBar.currentHeight)
 /* HEADER */
 const Background1 = styled.View`
 	display: flex;
-	align-items: center ;
+	align-items: center;
 	flex-direction: column;
+	justify-content: flex-start;
 	padding-top: 36px;
 	padding-right: 16px;
 	padding-bottom: 44px;
@@ -24,8 +25,9 @@ const Background1 = styled.View`
 
 const Background2 = styled.View`
 	display: flex;
-	align-items: center ;
+	align-items: center;
 	flex-direction: column;
+	justify-content: flex-start;
 	padding-top: 36px;
 	padding-right: 16px;
 	padding-bottom: 44px;
