@@ -5,12 +5,12 @@ import { colors } from "../../styles/colors";
 const MyInput = (props) => {
 	return (
 		<SafeAreaView>
-			<Text>{props.label}</Text>
-			<TextInput
-				style={styles.input}
-				placeholder={props.placeHolder}
-				secureTextEntry={props.comMascara}
-			/>
+				<Text>{props.label}</Text>
+				<TextInput
+					style={styles.input}
+					placeholder={props.placeHolder}
+					secureTextEntry={props.comMascara}
+				/>
 		</SafeAreaView>
 	);
 };
