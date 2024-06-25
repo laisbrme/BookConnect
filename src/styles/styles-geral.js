@@ -13,7 +13,7 @@ const Container = styled.View`
 `;
 
 const MeuText = styled.Text`
-	font-size: ${(props) => props.fontSize || 18};
+	font-size: ${(props) => props.fontSize || 18}px;
 	color: ${(props) => props.cor || colors.TEXTO_ESCURO};
 	font-family: ${(props) => props.fontFamily || fonts.regular};
 	line-height: 109%;
