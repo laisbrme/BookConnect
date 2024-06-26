@@ -2,6 +2,7 @@ import React from "react";
 import { Background1 } from "../../components/Backgrounds";
 import SearchBar from "../../components/SearchBar";
 import LinkShare from "../../components/LinkShare";
+import { BookCard } from "../../components/BookCard";
 import { MeuText } from "../../styles/styles-geral";
 import { LayoutText, ListCards } from "./styles";
 import { theme } from "../../styles/theme";
