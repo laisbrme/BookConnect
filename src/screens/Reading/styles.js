@@ -13,6 +13,9 @@ const LayoutText = styled.View`
 `;
 
 const ListCards = styled.View`
+	width: 90%;
+	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
 `;
 

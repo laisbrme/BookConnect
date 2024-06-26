@@ -16,6 +16,50 @@ export default function Reading({ navigation }) {
 			</LayoutText>
 			<SearchBar />
 			<LinkShare />
+			<ListCards>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard01.png",
+						titulo: "Identidade Roubada",
+						autor: "Nora Roberts",
+					}}
+				/>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard02.png",
+						titulo: "Diário de um Banana",
+						autor: "Jeff Kinney",
+					}}
+				/>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard03.png",
+						titulo: "Um Crime Adormecido",
+						autor: "Agatha Christie",
+					}}
+				/>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard04.png",
+						titulo: "O Meu Pé de Laranja Lima",
+						autor: "José Vasconcelos",
+					}}
+				/>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard05.png",
+						titulo: "Chucky",
+						autor: "Dustin McNeill",
+					}}
+				/>
+				<BookCard
+					item={{
+						image_url: "../../../assets/books/MaskBookCard06.png",
+						titulo: "Madonna",
+						autor: "Mary Gabriel",
+					}}
+				/>
+			</ListCards>
 		</Background1>
 	);
 }
