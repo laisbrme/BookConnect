@@ -1,4 +1,5 @@
 import styled from "styled-components/native";
+import { theme } from "../../styles/theme";
 // import { Feather } from "@expo/vector-icons";
 
 /* HEADER */
@@ -26,4 +27,30 @@ const Username = styled.Text`
 	font-weight: bold;
 `;
 
-export { ButtonUser, Content, Username };
+
+
+
+/* CARD */
+
+const LayoutText = styled.View`
+	display: flex;
+	width: ${theme.metrics.px(230)}px;
+	height: ${theme.metrics.px(45)}px;
+	margin-right: ${theme.metrics.px(120)}px;
+	flex-direction: column;
+	justify-content: center;
+	flex-shrink: 0;
+	line-height: 109%;
+`;
+
+const ListCards = styled.View`
+	width: 90%;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-top: 150px;
+	
+`;
+
+export { ButtonUser, Content, Username, LayoutText, ListCards };
+
