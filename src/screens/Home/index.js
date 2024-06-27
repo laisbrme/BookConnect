@@ -29,16 +29,16 @@ export default function Home({ navigation }) {
           <BookCard
             item={{
               image_url: "../../../assets/books/Rectangle 462.png",
-              titulo: "Identidade Roubada",
-              autor: "Nora Roberts",
+              titulo: "Novidades do mês!",
+              autor: "Livros  novinhos disponiveis em nossa loja!",
             }}
           />
 
           <BookCard
             item={{
               image_url: "../../../assets/books/Rectangle 462 (1).png",
-              titulo: "Diário de um Banana",
-              autor: "Jeff Kinney",
+              titulo: "Eventos",
+              autor: "Participe de discussões e compartilhe suas experiências literárias com outros usuários.",
             }}
           />
         

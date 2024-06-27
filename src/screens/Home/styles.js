@@ -48,7 +48,8 @@ const ListCards = styled.View`
 	flex-direction: column;
 	justify-content: center;
 	flex-wrap: wrap;
-	padding-top: 200px;
+	padding-top: 150px;
+	
 `;
 
 export { ButtonUser, Content, Username, LayoutText, ListCards };
