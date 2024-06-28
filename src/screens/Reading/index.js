@@ -3,6 +3,7 @@ import { ScrollView } from "react-native";
 import { Background1 } from "../../components/Backgrounds";
 import SearchBar from "../../components/SearchBar";
 import LinkShare from "../../components/LinkShare";
+import Dropdown from "../../components/Dropdown";
 import { BookCard } from "../../components/BookCard";
 import { MeuText } from "../../styles/styles-geral";
 import { theme } from "../../styles/theme";
@@ -19,6 +20,7 @@ export default function Reading({ navigation }) {
 				</LayoutText>
 				<SearchBar />
 				<LinkShare />
+				<Dropdown />
 				<ListCards>
 					<BookCard
 						item={{
