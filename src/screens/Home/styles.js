@@ -6,10 +6,10 @@ import { theme } from "../../styles/theme";
 /* HEADER */
 
 const Content = styled.View`
-	flex: 1;
-	align-items: flex-start;
+	display: flex;
+	align-content: flex-start;
 	flex-direction: column;
-`;  
+`;
 
 const ButtonUser = styled.TouchableOpacity`
 	padding-top: 25px;
@@ -22,27 +22,11 @@ const ButtonUser = styled.TouchableOpacity`
 	padding: 10px;
 `;
 
-const Username = styled.Text`
-	font-size: 18px;
-	color: #fff;
-	font-weight: bold;
+const Username = styled.View`
+	padding-top: 20px;
 `;
-
-
-
 
 /* CARD */
-
-const LayoutText = styled.View`
-	display: flex;
-	width: ${theme.metrics.px(230)}px;
-	height: ${theme.metrics.px(45)}px;
-	margin-right: ${theme.metrics.px(120)}px;
-	flex-direction: column;
-	justify-content: center;
-	flex-shrink: 0;
-	line-height: 109%;
-`;
 
 const ListCards = styled.View`
 	width: 90%;
@@ -51,5 +35,4 @@ const ListCards = styled.View`
 	flex-wrap: wrap;
 `;
 
-export { ButtonUser, Content, Username, LayoutText, ListCards };
-
+export { ButtonUser, Content, Username, ListCards };
