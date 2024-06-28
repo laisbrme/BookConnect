@@ -1,5 +1,6 @@
 import styled from "styled-components/native";
 import { theme } from "../../styles/theme";
+
 // import { Feather } from "@expo/vector-icons";
 
 /* HEADER */
@@ -8,7 +9,7 @@ const Content = styled.View`
 	flex: 1;
 	align-items: flex-start;
 	flex-direction: column;
-`;
+`;  
 
 const ButtonUser = styled.TouchableOpacity`
 	padding-top: 25px;
@@ -45,11 +46,9 @@ const LayoutText = styled.View`
 
 const ListCards = styled.View`
 	width: 90%;
-	flex-direction: column;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-around;
 	flex-wrap: wrap;
-	padding-top: 150px;
-	
 `;
 
 export { ButtonUser, Content, Username, LayoutText, ListCards };

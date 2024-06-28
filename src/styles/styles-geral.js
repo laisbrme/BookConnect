@@ -16,6 +16,7 @@ const MeuText = styled.Text`
 	color: ${(props) => props.cor || theme.colors.TEXTO_ESCURO};
 	font-family: ${(props) => props.fontFamily || theme.fonts.regular};
 	line-height: 109%;
+	
 `;
 
 export { Container, MeuText };
