@@ -8,6 +8,7 @@ import Reading from "./src/screens/Reading";
 import SelectedBook from "./src/screens/SelectedBook";
 import Comments from "./src/screens/Comments";
 import UnderConstruction from "./src/screens/UnderConstruction";
+import Splash from "./src/screens/Splash";
 
 // 2º Criando a navegação
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -28,7 +29,12 @@ const Tab = createBottomTabNavigator();
 
 export const StackNavigate = () => {
 	return (
-		<Stack.Navigator initialRouteName="Login">
+		<Stack.Navigator initialRouteName="Splash">
+			<Stack.Screen
+				name="Splash"
+				component={Splash}
+				options={{ headerShown: false }}
+			/>
 			<Stack.Screen
 				name="Login"
 				component={Login}
