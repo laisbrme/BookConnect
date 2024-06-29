@@ -5,13 +5,16 @@ import News from "./src/screens/News";
 import Favorites from "./src/screens/Favorites";
 import Events from "./src/screens/Events";
 import Reading from "./src/screens/Reading";
+import SelectedBook from "./src/screens/SelectedBook";
+import Comments from "./src/screens/Comments";
+import UnderConstruction from "./src/screens/UnderConstruction";
 
 // 2º Criando a navegação
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 // import { createDrawerNavigator } from "@react-navigation/drawer";
 
-import { colors } from "./src/styles/colors";
+import { theme } from "./src/styles/theme";
 import {
 	Entypo,
 	MaterialCommunityIcons,
@@ -39,7 +42,7 @@ export const StackNavigate = () => {
 			<Stack.Screen
 				name="SelectedBook"
 				component={SelectedBook}
-				options={{ headerShown: false, headerBackground: theme.colors.ROXO}}
+				options={{ headerShown: false, headerBackground: theme.colors.ROXO }}
 			/>
 			<Stack.Screen
 				name="Comments"
@@ -47,7 +50,7 @@ export const StackNavigate = () => {
 				options={{ headerShown: true }}
 			/>
 			<Stack.Screen
-			    name="UnderConstruction"
+				name="UnderConstruction"
 				component={UnderConstruction}
 				options={{ headerShown: true }}
 			/>
@@ -66,11 +69,13 @@ export const TabNavigate = () => {
 						<Entypo
 							name="home"
 							size={30}
-							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
+							color={
+								focused ? theme.colors.ICONE_ATIVO : theme.colors.ICONE_INATIVO
+							}
 						/>
 					),
-					tabBarActiveTintColor: colors.ICONE_ATIVO,
-					tabBarInactiveTintColor: colors.ICONE_INATIVO,
+					tabBarActiveTintColor: theme.colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: theme.colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -82,11 +87,13 @@ export const TabNavigate = () => {
 						<MaterialIcons
 							name="book"
 							size={30}
-							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
+							color={
+								focused ? theme.colors.ICONE_ATIVO : theme.colors.ICONE_INATIVO
+							}
 						/>
 					),
-					tabBarActiveTintColor: colors.ICONE_ATIVO,
-					tabBarInactiveTintColor: colors.ICONE_INATIVO,
+					tabBarActiveTintColor: theme.colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: theme.colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -98,11 +105,13 @@ export const TabNavigate = () => {
 						<MaterialCommunityIcons
 							name="alert-decagram"
 							size={30}
-							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
+							color={
+								focused ? theme.colors.ICONE_ATIVO : theme.colors.ICONE_INATIVO
+							}
 						/>
 					),
-					tabBarActiveTintColor: colors.ICONE_ATIVO,
-					tabBarInactiveTintColor: colors.ICONE_INATIVO,
+					tabBarActiveTintColor: theme.colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: theme.colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -114,11 +123,13 @@ export const TabNavigate = () => {
 						<MaterialIcons
 							name="event-available"
 							size={30}
-							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
+							color={
+								focused ? theme.colors.ICONE_ATIVO : theme.colors.ICONE_INATIVO
+							}
 						/>
 					),
-					tabBarActiveTintColor: colors.ICONE_ATIVO,
-					tabBarInactiveTintColor: colors.ICONE_INATIVO,
+					tabBarActiveTintColor: theme.colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: theme.colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
@@ -130,11 +141,13 @@ export const TabNavigate = () => {
 						<MaterialCommunityIcons
 							name="cards-heart"
 							size={30}
-							color={focused ? colors.ICONE_ATIVO : colors.ICONE_INATIVO}
+							color={
+								focused ? theme.colors.ICONE_ATIVO : theme.colors.ICONE_INATIVO
+							}
 						/>
 					),
-					tabBarActiveTintColor: colors.ICONE_ATIVO,
-					tabBarInactiveTintColor: colors.ICONE_INATIVO,
+					tabBarActiveTintColor: theme.colors.ICONE_ATIVO,
+					tabBarInactiveTintColor: theme.colors.ICONE_INATIVO,
 					headerShown: false,
 				}}
 			/>
