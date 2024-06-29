@@ -10,9 +10,9 @@ import {
 import { theme } from "../../styles/theme";
 import { MeuText } from "../../styles/styles-geral";
 
-export const HomeCard = ({ item, onPress }) => {
+export const HomeCard = ({ item }) => {
 	return (
-    <Container onPress={onPress}>
+    <Container>
       <MaskGroup>
         <BookCover source={{ uri: item.image_url }} />
       </MaskGroup>

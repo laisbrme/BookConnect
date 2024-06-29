@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import { theme } from "../../styles/theme";
 
-export const Container = styled.TouchableOpacity`
+export const Container = styled.SafeAreaView`
 	display: flex;
 	flex-shrink: 0;
 	width: ${theme.metrics.px(340)}px;
