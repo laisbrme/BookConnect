@@ -5,6 +5,9 @@ import News from "./src/screens/News";
 import Favorites from "./src/screens/Favorites";
 import Events from "./src/screens/Events";
 import Reading from "./src/screens/Reading";
+import SelectedBook from "./src/screens/SelectedBook";
+import Comments from "./src/screens/Comments";
+import UnderConstruction from "./src/screens/UnderConstruction";
 
 // 2º Criando a navegação
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -35,6 +38,21 @@ export const StackNavigate = () => {
 				name="Home"
 				component={TabNavigate}
 				options={{ headerShown: false }}
+			/>
+			<Stack.Screen
+				name="SelectedBook"
+				component={SelectedBook}
+				options={{ headerShown: false }}
+			/>
+			<Stack.Screen
+				name="Comments"
+				component={Comments}
+				options={{ headerShown: true }}
+			/>
+			<Stack.Screen
+			    name="UnderConstruction"
+				component={UnderConstruction}
+				options={{ headerShown: true }}
 			/>
 		</Stack.Navigator>
 	);
