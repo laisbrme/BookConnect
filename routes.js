@@ -36,6 +36,21 @@ export const StackNavigate = () => {
 				component={TabNavigate}
 				options={{ headerShown: false }}
 			/>
+			<Stack.Screen
+				name="SelectedBook"
+				component={SelectedBook}
+				options={{ headerShown: false, headerBackground: theme.colors.ROXO}}
+			/>
+			<Stack.Screen
+				name="Comments"
+				component={Comments}
+				options={{ headerShown: true }}
+			/>
+			<Stack.Screen
+			    name="UnderConstruction"
+				component={UnderConstruction}
+				options={{ headerShown: true }}
+			/>
 		</Stack.Navigator>
 	);
 };
