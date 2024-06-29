@@ -10,15 +10,6 @@ import { theme } from "../../styles/theme";
 import { LayoutText, ListCards } from "./styles";
 
 export default function Reading({ navigation }) {
-	const emConstrucao = () => {
-		navigation.navigate("UnderConstruction");
-	};
-
-	const livroSelecionado = () => {
-		navigation.navigate("SelectedBook");
-	};
-
-
 	return (
 		<ScrollView>
 			<Background1>
@@ -32,7 +23,6 @@ export default function Reading({ navigation }) {
 				<Dropdown />
 				<ListCards>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard01.png",
 							titulo: "Identidade Roubada",
@@ -41,7 +31,6 @@ export default function Reading({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard02.png",
 							titulo: "Diário de um Banana",
@@ -50,7 +39,6 @@ export default function Reading({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard03.png",
 							titulo: "Um Crime Adormecido",
@@ -59,7 +47,6 @@ export default function Reading({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={livroSelecionado}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard04.png",
 							titulo: "O Meu Pé de Laranja Lima",
@@ -68,7 +55,6 @@ export default function Reading({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard05.png",
 							titulo: "Chucky",
@@ -77,7 +63,6 @@ export default function Reading({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard06.png",
 							titulo: "Madonna",

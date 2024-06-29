@@ -8,14 +8,6 @@ import { BookCard } from "../../components/BookCard";
 import SearchBar from "../../components/SearchBar";
 
 export default function News({ navigation }) {
-	const emConstrucao = () => {
-		navigation.navigate("UnderConstruction");
-	};
-
-	const livroSelecionado = () => {
-		navigation.navigate("SelectedBook");
-	};
-
 	return (
 		<ScrollView>
 			<Background1>
@@ -27,7 +19,6 @@ export default function News({ navigation }) {
 				<SearchBar />
 				<ListCards>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard01.png",
 							titulo: "Identidade Roubada",
@@ -36,7 +27,6 @@ export default function News({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard02.png",
 							titulo: "Diário de um Banana",
@@ -45,7 +35,6 @@ export default function News({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard03.png",
 							titulo: "Um Crime Adormecido",
@@ -54,7 +43,6 @@ export default function News({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={livroSelecionado}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard04.png",
 							titulo: "O Meu Pé de Laranja Lima",
@@ -63,7 +51,6 @@ export default function News({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard05.png",
 							titulo: "Chucky",
@@ -72,7 +59,6 @@ export default function News({ navigation }) {
 						}}
 					/>
 					<BookCard
-						onPress={emConstrucao}
 						item={{
 							image_url: "../../../assets/books/MaskBookCard06.png",
 							titulo: "Madonna",

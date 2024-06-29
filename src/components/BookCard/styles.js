@@ -1,6 +1,7 @@
 import styled from "styled-components/native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { theme } from "../../styles/theme";
+import { css } from "styled-components/native";
 
 export const Container = styled.TouchableOpacity`
 	width: ${theme.metrics.px(162)}px;
