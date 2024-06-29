@@ -11,9 +11,9 @@ import {
 import { theme } from "../../styles/theme";
 import { MeuText } from "../../styles/styles-geral";
 
-export const BookCard = ({ item }) => {
+export const BookCard = ({ item, onPress }) => {
 	return (
-		<Container>
+		<Container onPress={onPress}>
 			<MaskGroup>
 				<BookCover source={{ uri: item.image_url }} />
 			</MaskGroup>
