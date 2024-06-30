@@ -3,12 +3,13 @@ import { theme } from "../../styles/theme";
 
 export const Container = styled.TouchableOpacity`
     display: flex;
-    background-color: ${theme.colors.ROXO};
     width: 100%;
+    height: ${theme.metrics.px(56)}px;
     border-radius: ${theme.metrics.px(8)}px;
-    margin-top: 20px;
+    border: ${theme.metrics.px(2)}px solid ${theme.colors.ROXO};
+	margin-bottom: 20px;
+    justify-content: center;
     align-items: center;
-	border-width: 1px;
-	border-color: #ccc;
-	padding: 10px;
+    flex-shrink: 0;
+    background-color: ${(props) => props.bg || theme.colors.ROXO};
 `;
