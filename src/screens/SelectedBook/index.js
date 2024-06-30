@@ -25,7 +25,7 @@ import { MeuText } from "../../styles/styles-geral";
 import { theme } from "../../styles/theme";
 
 export default function SelectedBook({ navigation }) {
-	const Comentar = (props) => {
+	const Comentar = () => {
 		navigation.navigate("Comments");
 	};
 
@@ -107,11 +107,10 @@ export default function SelectedBook({ navigation }) {
 					</BoxIconsText>
 				</InteractiveBox>
 			</InterationGroup>
-			<ButtonView>
+			<ButtonView onPress={Comentar}>
 				<MeuText
 					fontSize={theme.metrics.px(12)}
 					cor={theme.colors.BRANCO}
-					onPress={Comentar("Reescreva o final do livro O Meu Pé de Laranja Lima")}
 				>
 					Reescreva seu Final
 				</MeuText>

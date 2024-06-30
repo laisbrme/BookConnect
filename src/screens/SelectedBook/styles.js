@@ -2,7 +2,6 @@ import styled from "styled-components/native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import IconChat from "react-native-vector-icons/MaterialIcons";
 import { theme } from "../../styles/theme";
-import { Button } from "react-native";
 
 export const MaskGroup = styled.View`
 	display: flex;
