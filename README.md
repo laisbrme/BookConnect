@@ -4,7 +4,7 @@ Atividade avaliativa para a disciplina Android Developer - Construindo seu 1º A
 
 > Status: Finalizado
 
-> Previsão de entrega: 30/06/2024
+<!-- > Previsão de entrega: 30/06/2024 -->
 
 ## Objetivo
 
@@ -15,7 +15,17 @@ O aplicativo será chamado BookConnect (Aplicativo para estabelecer vínculos en
 
 <img src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000" width="50" alt="React Native" title="React Native"> <img src="https://img.icons8.com/?size=100&id=IpN1evivrDWO&format=png&color=000000" width="50" alt="Expo" title="Expo"> <img src="https://reactnavigation.org/img/spiro.svg" width="50" alt="React Navigator" title="React Navigator"> <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmiro.medium.com%2Fv2%2Fresize%3Afit%3A318%2F1*7jRD5QhgARucFKvRHFxpOg.png&f=1&nofb=1&ipt=997e398fe330bf8d04cf8852250b830e0312dd75b7224ae849d70b9b5a6dec51&ipo=images" height="50" alt="Styled Components" title="Styled Components">
 
+## Colaboradores
 
-<!-- ## Vídeo de apresentação -->
+Este projeto foi desenvolvido graças aos
+<a href="https://github.com/laisbrme/BookConnect/graphs/contributors"> colaboradores.</a>
 
-<!-- [![Watch the video](https://img.youtube.com/vi/KLd8p6iHlRo/hqdefault.jpg)](https://www.youtube.com/embed/KLd8p6iHlRo) -->
+<a href="https://github.com/laisbrme"><img src="https://avatars.githubusercontent.com/u/52614305?s=64&v=4" height="50" /> Laís Brum</a>
+
+<a href="https://github.com/RhaisaJusto"><img src="https://avatars.githubusercontent.com/u/163946245?s=64&v=4" height="50" /> Rhaísa Justo</a>
+
+<a href="https://github.com/laisbrme"><img src="https://avatars.githubusercontent.com/u/163802559?s=64&v=4" height="50" /> Leonardo Pontes</a>
+
+## Vídeo de apresentação
+
+[![Watch the video](https://img.youtube.com/vi/WKR7pHkXfps/hqdefault.jpg)]( https://youtu.be/WKR7pHkXfps)
