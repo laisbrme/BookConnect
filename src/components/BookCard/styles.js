@@ -1,14 +1,13 @@
 import styled from "styled-components/native";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { theme } from "../../styles/theme";
-import { css } from "styled-components/native";
 
 export const Container = styled.TouchableOpacity`
 	width: ${theme.metrics.px(162)}px;
 	height: ${theme.metrics.px(237)}px;
 	margin-top: ${theme.metrics.px(25)}px;
 	border-radius: ${theme.metrics.px(8)}px;
-    border: ${theme.metrics.px(0.5)}px solid ${theme.colors.CINZA};
+	border: ${theme.metrics.px(0.5)}px solid ${theme.colors.CINZA};
 	overflow: hidden;
 `;
 
@@ -49,7 +48,6 @@ export const BoxIcon = styled.View`
 export const HeartIcon = styled(Icon).attrs({
 	name: "cards-heart",
 })`
-	color: ${(item) => item.cor ? theme.colors.ROXO : theme.colors.CINZA};
+	color: ${(item) => (item.cor ? theme.colors.ROXO : theme.colors.CINZA)};
 	font-size: ${theme.metrics.px(18)}px;
 `;
-
