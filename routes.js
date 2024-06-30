@@ -7,6 +7,7 @@ import Events from "./src/screens/Events";
 import Reading from "./src/screens/Reading";
 import SelectedBook from "./src/screens/SelectedBook";
 import Comments from "./src/screens/Comments";
+import RewriteEnding from "./src/screens/RewriteEnding";
 import UnderConstruction from "./src/screens/UnderConstruction";
 import Splash from "./src/screens/Splash";
 
@@ -53,6 +54,11 @@ export const StackNavigate = () => {
 			<Stack.Screen
 				name="Comments"
 				component={Comments}
+				options={{ headerShown: false }}
+			/>
+			<Stack.Screen
+				name="RewriteEnding"
+				component={RewriteEnding}
 				options={{ headerShown: false }}
 			/>
 			<Stack.Screen

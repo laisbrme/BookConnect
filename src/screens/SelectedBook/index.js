@@ -29,6 +29,10 @@ export default function SelectedBook({ navigation }) {
 		navigation.navigate("Comments");
 	};
 
+	const ReescreverFinal = () => {
+		navigation.navigate("RewriteEnding");
+	};
+
 	return (
 		<ScrollView>
 			<MaskGroup>
@@ -96,7 +100,7 @@ export default function SelectedBook({ navigation }) {
 						<BoxIcons>
 							<ChatIcon />
 						</BoxIcons>
-						<InteractiveTextBox>
+						<InteractiveTextBox onPress={Comentar}>
 							<MeuText
 								fontSize={theme.metrics.px(11)}
 								cor={theme.colors.BRANCO}
@@ -107,7 +111,7 @@ export default function SelectedBook({ navigation }) {
 					</BoxIconsText>
 				</InteractiveBox>
 			</InterationGroup>
-			<ButtonView onPress={Comentar}>
+			<ButtonView onPress={ReescreverFinal}>
 				<MeuText
 					fontSize={theme.metrics.px(12)}
 					cor={theme.colors.BRANCO}

@@ -1,5 +1,4 @@
 import styled from "styled-components/native";
-import Icon from "react-native-vector-icons/MaterialIcons";
 import { theme } from "../../styles/theme";
 
 export const Background = styled.View`
@@ -66,11 +65,4 @@ export const PublishButton = styled.TouchableOpacity`
 	height: 100%;
 	border-radius: 20px;
 	background-color: ${theme.colors.BRANCO};
-`;
-
-export const StarIcon = styled(Icon).attrs({
-	name: "star",
-})`
-	color: ${theme.colors.CINZA};
-	font-size: ${theme.metrics.px(24)}px;
 `;

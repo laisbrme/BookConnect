@@ -3,17 +3,16 @@ import { ScrollView } from "react-native";
 import { MeuText } from "../../styles/styles-geral";
 import { theme } from "../../styles/theme";
 import {
-	Background,
+    Background,
 	BoxTextInput,
 	Box,
 	BoxContent,
-	StarIcon,
 	BoxButtons,
 	CancelButton,
 	PublishButton,
 } from "./styles";
 
-export default function Comments({ navigation }) {
+export default function RewriteEnding({ navigation }) {
 	return (
 		<ScrollView>
 			<Background>
@@ -23,17 +22,12 @@ export default function Comments({ navigation }) {
 						cor={theme.colors.CINZA}
 						fontFamily={theme.fonts.lightItalic}
 					>
-						Deixe um comentário sobre o livro O Meu pé de Laranja Lima
+						Reescreva seu final para o livro O Meu pé de Laranja Lima
 					</MeuText>
 				</BoxTextInput>
 
 				<Box>
 					<BoxContent>
-						<StarIcon />
-						<StarIcon />
-						<StarIcon />
-						<StarIcon />
-						<StarIcon />
 					</BoxContent>
 					<BoxButtons>
 						<CancelButton onPress={() => navigation.goBack()}>
