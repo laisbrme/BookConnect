@@ -30,7 +30,7 @@ export const TextGroup = styled.View`
 	background-color: ${theme.colors.LIGHT};
 `;
 
-export const LinkHomeCard = styled.Text`
+export const LinkHomeCard = styled.View`
 	font-size: 12px;
 	color: black;
 	font-family: ${theme.fonts.extraLightItalic};

@@ -12,6 +12,14 @@ import { HomeCard } from "../../components/HomeCard";
 // const statusBarHeight = StatusBar.currentHeight ? StatusBar.currentHeight + 22 : 64;
 
 export default function Home({ navigation }) {
+	const eventos = () => {
+		navigation.navigate("Eventos");
+	};
+
+	const novidades = () => {
+		navigation.navigate("Novidades");
+	};
+
 	return (
 		<ScrollView>
 			<Background1>
@@ -34,6 +42,7 @@ export default function Home({ navigation }) {
 				</Content>
 				<ListCards>
 					<HomeCard
+						onPress={novidades}
 						item={{
 							image_url: "../../../assets/books/Novidades.png",
 							titulo: "Novidades do mês!",
@@ -43,6 +52,7 @@ export default function Home({ navigation }) {
 					/>
 
 					<HomeCard
+						onPress={eventos}
 						item={{
 							image_url: "../../../assets/books/Eventos.png",
 							titulo: "Eventos",
