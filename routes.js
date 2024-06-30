@@ -48,12 +48,12 @@ export const StackNavigate = () => {
 			<Stack.Screen
 				name="SelectedBook"
 				component={SelectedBook}
-				options={{ headerShown: false, headerBackground: theme.colors.ROXO }}
+				options={{ headerShown: false }}
 			/>
 			<Stack.Screen
 				name="Comments"
 				component={Comments}
-				options={{ headerShown: true }}
+				options={{ headerShown: false }}
 			/>
 			<Stack.Screen
 				name="UnderConstruction"
