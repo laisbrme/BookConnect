@@ -1,4 +1,4 @@
-# 2024-01-Desafio_2-Android_Developer - TESTE
+# 2024-01-Desafio_2-Android_Developer
 
 Atividade avaliativa para a disciplina Android Developer - Construindo seu 1º App, do Curso de Análise e Desenvolvimento de Sistemas, do Centro Universitário de Valença.
 
@@ -9,7 +9,7 @@ Atividade avaliativa para a disciplina Android Developer - Construindo seu 1º A
 ## Objetivo
 
 O objetivo primordial deste desafio é conceber e implementar um programa para dispositivo móvel robusto e amigável para uma livraria fictícia. Além disso, buscar promover a experiência do usuário, considerando a navegabilidade, o design atraente e a facilidade de acesso às informações.
-O aplicativo será chamado BookConnect (Aplicativo para estabelecer vínculos entre a livraria e seus clientes)
+O aplicativo será chamado BookConnect (Aplicativo para estabelecer vínculos entre a livraria e seus clientes).
 
 ## Tecnologias utilizadas
 
